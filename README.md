@@ -5,10 +5,10 @@ This project was originally created by me on Repl.it but I've now transfered it 
 MovieDatabase uses RESTfulAPI’s and JavaScript to retrieve newly released movies and displays
 information such as its trailer, synopsis, etc. in a stylish manner using HTML5 and CSS.
 
-# VIEW DEMO
+# View Demo
 To view a live demo of this project visit: https://the-movie-database--osmanjan11.repl.co/
 
-# SETUP
+# Setup
 If you would like to clone this repository and play with the code there are a couple of things you must first do.
   1. Clone this repository if you haven't already.
   2. You must generate your own API KEY on https://www.themoviedb.org/
