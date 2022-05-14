@@ -1,0 +1,110 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  background-color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration-style: none;
+}
+
+#sectionTitle
+{
+  grid-column: 2/12;
+  text-align: left;
+}
+
+#container
+{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
+
+#movieSection
+{
+  grid-column: 2/12;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+#movieSection > div
+{
+  display: inline;
+  padding: 25px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(237,237,237,1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(237,237,237,1);
+  box-shadow: 5px 5px 5px 0px rgba(237,237,237,1);
+  border-radius: 10px 10px 10px 10px;
+}
+
+#movieSection > div > #releaseDateID
+{
+  margin-top: -25px;
+  text-align: center;
+}
+
+#movieRatingID
+{
+  font-weight: bold;
+}
+
+#movieSection > div > h4
+{
+  font-size: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  margin-left:  200px;
+}
+
+#movieSection > div > p
+{
+  vertical-align: middle;
+  text-align: center;
+  margin-left:  200px;
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+#movieSection > div > img
+{
+  vertical-align: middle;
+  float: left;
+}
+
+header
+{
+  grid-column: 1/13;
+  margin-bottom: 25px;
+  min-height: 75px;
+  background-color: #1b1a1a;
+}
+
+header > .centerWrapper > h1
+{
+  font-size: 3em;
+  text-align: center;
+  margin-left: 30px;
+  color: goldenrod;
+}
+
+img:hover
+{
+  cursor: pointer;
+}
+
+#movieDiv > p
+{
+  font-size: 0.5em; 
+}
+
+footer
+{
+  font-size: 0.5em;
+  grid-column: 1/13;
+  margin-top: 25px;
+  color: white;
+  background-color: #1b1a1a;
+}

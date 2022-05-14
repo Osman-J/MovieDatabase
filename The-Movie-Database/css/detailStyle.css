@@ -1,0 +1,168 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  background-color: #272727;
+  color: whitesmoke;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#container
+{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-column-gap: 6em;
+}
+
+hr
+{
+  border-color: black;
+}
+
+#reviewsDiv
+{
+  grid-column: 1/13;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#reviewsDiv > #reviewsDiv
+{
+  grid-column: 1/2;
+  grid-column-gap: 4em;
+}
+
+#reviewCard
+{
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 100;
+  font-size: 1em;
+  color: white;
+  background-color: #555555;
+  display:inline-block;
+}
+
+#reviewCard:hover
+{
+  color:black;
+  background-color: white;
+}
+
+#reviewTitle
+{
+  grid-column: 1/13;
+  font-size: 2em;
+  text-align: center;
+}
+
+#trailerTitle
+{
+  margin-top: 50px;
+  grid-column: 1/13;
+  font-size: 2em;
+  text-align: center;
+}
+
+#movieDiv
+{
+  grid-column: 1/13;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#movieDiv > img
+{
+  grid-column: 1/2;
+  width:250px;
+  height:auto;
+  margin-left: 4em;
+  margin-top: 25px;
+}
+
+#contentDiv
+{
+  grid-column: 2/5;
+  margin-left: 25px;
+  margin-right: 200px;
+  color: gainsboro;
+}
+
+#movieRatingID
+{
+  font-weight: bold;
+}
+
+#contentDiv > h4
+{
+  font-size: 1.8em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#contentDiv > p
+{
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#contentDiv > #releaseDateID
+{
+  margin-top: -25px;
+  text-align: center;
+}
+
+.btn
+{
+  text-decoration: none;
+  color:#ffffff;
+  border: 1px solid #555555;
+  background-color: #272727;
+  padding: 0.5em 2em 0.5em 2em;
+  margin-top: 25px;
+  font-size: 90%;
+  text-align: center;
+  width: 75px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /*Turns the <a> into a block level element*/
+  /*Allowing you to add padding or margin*/
+  /*if you didnt add this you would need to add a div
+  or something to do that*/
+  display: inline-block;
+}
+
+.btn:hover
+{
+  background-color: #eaeaea;
+  color:#333333;
+}
+
+#trailerDiv
+{
+  grid-column: 1/13;
+}
+
+header
+{
+  font-size: 1.5em;
+  grid-column: 1/13;
+  margin-bottom: 25px;
+  color:goldenrod;
+  min-height: 75px;
+  background-color: #1b1a1a;
+}
+
+footer
+{
+  grid-column: 1/13;
+  margin-top: 25px;
+  color: white;
+  font-size: 0.5em;
+  background-color: #1b1a1a;
+}
