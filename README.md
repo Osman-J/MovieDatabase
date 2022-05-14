@@ -1,9 +1,8 @@
-# MovieDatabase
-This project was originally created by me on Repl.it but I've now transfered it over to GitHub.
-
 # Project Description
 MovieDatabase uses RESTfulAPI’s and JavaScript to retrieve newly released movies and displays
-information such as its trailer, synopsis, etc. in a stylish manner using HTML5 and CSS.
+information such as its trailer, synopsis, etc. in a stylish manner using HTML5 and CSS.\
+
+This project was originally created by me on Repl.it but I've now transfered it over to GitHub.
 
 # View Demo
 To view a live demo of this project visit: https://the-movie-database--osmanjan11.repl.co/
